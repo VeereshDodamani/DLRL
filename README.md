@@ -97,3 +97,28 @@ Uses one-hot encoding for character representation
 Generates new text based on learned patterns
 
 Demonstrates sequence learning using SimpleRNN
+
+# 6. Reinforcement Learning Tic-Tac-Toe Game
+## ✅ Improved Code – Key Points
+
+Fixed syntax and player switching errors
+
+Simplified winner detection logic
+
+Improved reward propagation stability
+
+Cleaned state reset and gameplay flow
+
+Enhanced human vs AI interaction
+
+## 📘 Key Points
+
+Reinforcement learning agent trained to play Tic-Tac-Toe
+
+Agent learns optimal moves through repeated self-play
+
+Rewards guide learning for win, loss, and draw
+
+Trained policy stored and reused against human player
+
+Demonstrates exploration, exploitation, and policy learning
