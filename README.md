@@ -11,7 +11,7 @@ Added clear prediction output with flower class name
 
 Displayed the feature-image with predicted class for visibility
 
-## 📘 README – Key Points
+## 📘 Key Points
 
 Iris dataset does not contain images; hence features were reshaped into image form
 
@@ -22,6 +22,31 @@ Model classifies Iris flowers into Setosa, Versicolor, and Virginica
 Output clearly displays predicted flower category
 
 Approach demonstrates innovative use of CNN on tabular data
+
+# 3. Q-Learning Path Finding on Graph (Police & Drug Traces)
+## ✅ Improved Code – Key Points
+
+Fixed action selection bug in Q-learning exploration
+
+Simplified reward matrix initialization
+
+Removed duplicate functions and cleaned logic
+
+Added environment-aware learning (police & drug traces)
+
+Improved visualization of rewards and learned paths
+
+## 📘 Key Points
+
+Implemented Q-learning to find optimal path in a graph
+
+Goal node rewarded to guide learning
+
+Environment factors like police and drug traces were incorporated
+
+Agent learns both efficiency and safety
+
+Demonstrates reinforcement learning in real-world navigation scenarios
 
 # 4. LSTM Time-Series Forecasting (Airline Passengers)
 ## ✅ Improved Code – Key Points
@@ -36,7 +61,7 @@ Improved visualization of predictions vs actual data
 
 Used RMSE for proper model evaluation
 
-## 📘 README – Key Points
+## 📘 Key Points
 
 LSTM model predicts airline passenger traffic over time
 
