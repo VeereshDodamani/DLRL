@@ -72,3 +72,28 @@ Time-step window captures temporal dependency
 Model performance evaluated using RMSE
 
 Results show effective learning of sequential patterns
+
+# 5. Character-Level RNN Text Generation
+## ✅ Improved Code – Key Points
+
+Clarified RNN hidden unit configuration
+
+Removed redundant commented code
+
+Simplified text generation logic
+
+Added meaningful variable names and structure
+
+Ensured consistent sequence length during prediction
+
+## 📘 Key Points
+
+Character-level RNN trained on given text input
+
+Model learns character sequence dependencies
+
+Uses one-hot encoding for character representation
+
+Generates new text based on learned patterns
+
+Demonstrates sequence learning using SimpleRNN
