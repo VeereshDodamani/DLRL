@@ -1,3 +1,24 @@
+# 1. AlexNet CNN Architecture (Image Classification)
+# ✅ Improved Code – Key Points
+
+Added Batch Normalization layers after early convolution layers
+
+Improved training stability and convergence speed
+
+Used explicit class initialization for better clarity
+
+Enhanced overall model robustness without changing outputs
+
+# 📘 Key Points
+
+AlexNet CNN implemented for large-scale image classification
+
+Batch Normalization reduces internal covariate shift
+
+Dropout layers prevent overfitting in fully connected layers
+
+Enhancements improve training performance while preserving design
+
 # 2. CNN using Iris Features (Image-style Classification)
 ## ✅ Improved Code – Key Points
 
@@ -18,8 +39,6 @@ Iris dataset does not contain images; hence features were reshaped into image fo
 CNN was used to learn spatial relationships among features
 
 Model classifies Iris flowers into Setosa, Versicolor, and Virginica
-
-Output clearly displays predicted flower category
 
 Approach demonstrates innovative use of CNN on tabular data
 
@@ -46,16 +65,12 @@ Environment factors like police and drug traces were incorporated
 
 Agent learns both efficiency and safety
 
-Demonstrates reinforcement learning in real-world navigation scenarios
-
 # 4. LSTM Time-Series Forecasting (Airline Passengers)
 ## ✅ Improved Code – Key Points
 
 Removed hard-coded dataset path for portability
 
 Added reusable time-series dataset creation function
-
-Clearly reshaped data for LSTM input requirements
 
 Improved visualization of predictions vs actual data
 
@@ -68,8 +83,6 @@ LSTM model predicts airline passenger traffic over time
 Data normalized using Min-Max scaling
 
 Time-step window captures temporal dependency
-
-Model performance evaluated using RMSE
 
 Results show effective learning of sequential patterns
 
